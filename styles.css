@@ -1,44 +1,25 @@
-.moving-element {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: top 1s, left 1s; 
-  }
-  
-  @media screen and (max-width: 768px) {
-    .moving-element {
-      top: 20%;
-      left: 20%;
-    }
-  }
-  
-  @media screen and (min-width: 769px) and (max-width: 1200px) {
-    .moving-element {
-      top: 30%;
-      left: 30%;
-    }
-  }
-  
-  @media screen and (min-width: 1201px) {
-    .moving-element {
-      top: 40%;
-      left: 40%;
-    }
-  }
-  
 .hero-banner {
-    height: 50rem;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30rem;
-	background: linear-gradient(45deg, rgba(249, 80, 108, 0.7), rgba(44, 216, 255, 0.7), rgba(251, 255, 171, 0.7), rgba(164, 74, 101, 0.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, 0 0 / cover no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(249, 80, 108, 0.7), rgba(44, 216, 255, 0.7), rgba(251, 255, 171, 0.7), rgba(164, 74, 101, 0.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, 0 0 / cover no-repeat;
 	-webkit-animation: gradientAnimation 20s ease infinite;
 	animation: gradientAnimation 20s ease infinite;
-  }
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+  margin-top: 10rem;
+}
+
+.logo img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+}
   
 
 @keyframes gradientAnimation {
@@ -118,5 +99,22 @@ img{
     height: 6rem;
   }
   img:hover {
-    transform: scale(2.5);
+    transform: scale(2);
   }
+
+  footer {
+    height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(249, 80, 108, 0.7), rgba(44, 216, 255, 0.7), rgba(251, 255, 171, 0.7), rgba(164, 74, 101, 0.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 20s ease infinite;
+	animation: gradientAnimation 20s ease infinite;
+  }
+  
+  .social-media-links a:hover {
+    color: #555;
+    
+  }
+  
+  
