@@ -1,0 +1,120 @@
+.hero-banner {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(249, 80, 108, 0.7), rgba(44, 216, 255, 0.7), rgba(251, 255, 171, 0.7), rgba(164, 74, 101, 0.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 20s ease infinite;
+	animation: gradientAnimation 20s ease infinite;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+  margin-top: 10rem;
+}
+
+.logo img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
+}
+  
+
+@keyframes gradientAnimation {
+	0%   { background-position: 0% 30%, 0 0;}
+	50%  { background-position: 100% 70%, 0 0;}
+	100% { background-position: 0% 30%, 0 0;}
+}
+h2{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	-webkit-transform: translate(-40%, -40%);
+	transform: translate(-40%, -40%);
+	color: #000000;
+	font : normal 5rem 'Open Sans', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+
+img{
+    width: 6rem;
+    height: 6rem;
+}
+
+.container {
+    position: absolute;
+    margin: 5rem;
+    width: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h1{
+    text-align: center;
+    color: #000000;
+	font : normal 5rem 'Open Sans', sans-serif;
+	text-align: center;
+	white-space: nowrap;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  div.scroll-container {
+    
+    
+    white-space: nowrap;
+    padding: 1rem;
+    align-items: center;
+  }
+  
+  div.scroll-container img {
+    padding: 1rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  img:hover {
+    transform: scale(2);
+  }
+
+  footer {
+    height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, rgba(249, 80, 108, 0.7), rgba(44, 216, 255, 0.7), rgba(251, 255, 171, 0.7), rgba(164, 74, 101, 0.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, 0 0 / cover no-repeat;
+	-webkit-animation: gradientAnimation 20s ease infinite;
+	animation: gradientAnimation 20s ease infinite;
+  }
+  
+  .social-media-links a:hover {
+    color: #555;
+    
+  }
+  
+  
